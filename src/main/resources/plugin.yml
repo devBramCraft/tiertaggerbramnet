@@ -1,0 +1,15 @@
+name: tiertaggerbramnet
+version: 1.0
+main: bramcraft.net.tiertaggerbramnet.Tiertaggerbramnet
+api-version: 1.20
+depend: [PlaceholderAPI]
+
+commands:
+  tier:
+    description: Shows your tier, another player's tier, or reloads the tierlist
+    usage: /tier [<player>|reload]
+
+permissions:
+  tiertagger.reload:
+    description: Allows reloading the tierlist
+    default: op
